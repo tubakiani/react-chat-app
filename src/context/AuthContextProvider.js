@@ -2,7 +2,7 @@ import React, { useState, useEffect, Children } from 'react';
 import { useHistory } from 'react-router-dom';
 import { auth } from '../firebase';
 
-const AuthContext = React.createContext();
+export const AuthContext = React.createContext();
 
 const AuthContextProvider = ({children}) => {
 
